@@ -14,7 +14,7 @@ yay -S hyprland-git
 # Install deps
 echo " [ + ] Installing the following deps: nemo, git, python, python-pip, neovim, dunst, htop, kitty, neofetch, qt6ct, rofi, eza, alacritty..."
 
-yay -S nemo git python python-pip neovim waybar dunst htop kitty neofetch qt6ct rofi eza alacritty curl zip unzip
+yay -S nemo git python python-pip neovim waybar dunst htop kitty neofetch qt6ct rofi eza alacritty curl zip unzip grim slurp qt6-wayland
 
 # Installing the Hack nerd font
 echo " [ + ] Installing the Hack Nerd font..."
