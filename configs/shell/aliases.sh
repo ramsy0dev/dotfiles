@@ -1,13 +1,7 @@
-alias lsc='/usr/bin/ls --color=auto' # Default ls with colors
-# alias ls='logo-ls -Dh' # Modern ls https://github.com/Yash-Handa/logo-ls
-alias jls='jls -lh'
 alias ls='eza --icons --git'
-alias l='ls -lh'
+alias l='eza --icons -lah'
 
 # navigation
-alias ~='cd ~'
-alias .-='cd -'
-alias cd..='cd ..'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias .3='cd ../../..'
@@ -29,16 +23,13 @@ alias ct='cargo test'
 alias m='make'
 alias o='xdg-open'
 alias vimdiff='nvim -d'
-alias clip='xclip -selection clipboard'
 alias bash='SHELL=bash bash'
 alias zsh='SHELL=zsh zsh'
-alias fish='SHELL=fish fish'
 
 # Keybase
 alias ks='keybase chat send'
 alias ksr='keybase chat read'
 alias kl='keybase chat list'
-
 
 # Git
 alias g='git'
@@ -67,7 +58,6 @@ alias fgrep='fgrep --color=auto'
 # confirm before overwriting something
 alias cp="cp -i"
 alias mv='mv -i'
-# alias rm='rm -i'
 
 #youtube download
 alias yta-aac="yt-dlp --extract-audio --audio-format aac "
@@ -94,4 +84,9 @@ alias i='install'
 alias s='search'
 alias u='update'
 alias un='remove'
-alias fuck-my-lap='sudo pacman -Syyu'
+
+# Aliases for scripts and binaries
+alias xmrig="$HOME/Repos/xmrig-6.21.0/xmrig"
+alias p2pool="$HOME/Repos/p2pool-v3.10-linux-x64/p2pool"
+alias minimizew="$HOME/scripts/minimize-window.sh"
+
