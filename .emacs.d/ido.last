@@ -1,0 +1,41 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/" . "ramsy0dev/")
+ ("/" . "home/")
+ ("/home/ramsy0dev/" . "Coding/")
+ ("/home/ramsy0dev/Coding/Problem-Solving/" . "codewars/")
+ ("/home/ramsy0dev/Coding/" . "Problem-Solving/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/ramsy0dev/Coding/Problem-Solving/codewars/"
+ "/home/ramsy0dev/Coding/Problem-Solving/utils/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "Valid-Braces.cpp"
+ "print_vector.cpp"
+ "Valid-Braces"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/ramsy0dev/Coding/Problem-Solving/codewars/" (26046 50099 202986 349000) "Equal-Sides-Of-An-Array.cpp" "Reverse-words.cpp" "Square-Every-Digit.cpp" "../" "Valid-Braces.cpp" "Complementary-DNA.cpp" "Tow-Sum.cpp" "Valid-Braces" "./")
+
+ ("/home/ramsy0dev/Coding/Problem-Solving/utils/" (26043 58493 931798 87000) "../" "linkedlist.cpp" "print_vector.cpp" "split_vector.cpp" "./")
+
+ ("/home/" (26043 50773 800300 826000) "../" "ramsy0dev/" "./")
+
+ ("/home/ramsy0dev/" (26046 48661 562817 705000) "Desktop/" ".pki/" ".wallpapers/" ".emacs.local/" ".emacs.d/" ".oh-my-zsh/" "scripts/" "../" ".wget-hsts" ".fonts/" ".cache/" ".bash_logout" "Pictures/" ".zsh_history" ".gitconfig" ".gtkrc-2.0" ".zcompdump" "Downloads/" ".config/" ".viminfo" ".shell_history" ".bash_history" ".pufferblow-api/" ".npm/" "go/" ".tmux.conf" "Videos/" ".shell.pre-oh-my-zsh" ".zcompdump-yoru-5.9" ".bashrc" ".emacs.snippets/" ".bitmonero/" ".bash_profile" ".zshrc" ".cargo/" "Coding/" ".zcompdump-yoru-5.9.zwc" ".ssh/" ".emacs" ".python_history" ".emacs.rc/" ".histfile" "./" ".local/" ".mozilla/" "Repos/")
+
+ ("/home/ramsy0dev/Coding/Problem-Solving/" (26043 58493 931798 87000) "leetcode/" "codewars/" "../" "adventofcode/" ".git/" "./" "LICENSE" "utils/")
+
+ ("/home/ramsy0dev/Coding/" (26043 58491 121811 477000) "../" "Problem-Solving/" "Projects/" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
