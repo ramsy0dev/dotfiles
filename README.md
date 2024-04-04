@@ -2,7 +2,7 @@
 
 # ramsy0dev's dotfiles
 
-<img src="assets/desktop.png" height="500" />
+<img src="assets/desktop.png" />
 
 </div>
 
