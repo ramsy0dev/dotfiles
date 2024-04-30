@@ -23,6 +23,9 @@ echo " ${GREEN}[ + ]${NC} Installing the following deps: nemo, git, python, pyth
 
 yay -S nemo git python python-pip neovim waybar dunst htop kitty neofetch qt6ct rofi eza alacritty curl zip unzip grim slurp qt6-wayland mpv xdotool wf-recorder cliphist feh emacs sddm polkit polkit-kde-agent blueman
 
+# Install zellig
+cargo install --locked zellij
+
 # Installing the Hack nerd font
 echo " ${GREEN}[ + ]${NC} Installing the Hack Nerd font..."
 
