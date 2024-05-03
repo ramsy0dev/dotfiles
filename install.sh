@@ -19,8 +19,9 @@ yay -Syyu
 yay -S hyprland-git
 
 # Install deps
-echo " ${GREEN}[ + ]${NC} Installing the following deps: ueberzug, nemo, git, python, python-pip, neovim, dunst, htop, kitty, neofetch, qt6ct, rofi, eza, alacritty, curl, zip, unzip, grim, slurp, qt6-wayland, mpv, xdotool, wf-recorder, cliphist, feh, emacs, sddm polkit polkit-kde-agent, blueman..."
+echo " ${GREEN}[ + ]${NC} Installing the following deps: fastfetch, ueberzug, nemo, git, python, python-pip, neovim, dunst, htop, kitty, neofetch, qt6ct, rofi, eza, alacritty, curl, zip, unzip, grim, slurp, qt6-wayland, mpv, xdotool, wf-recorder, cliphist, feh, emacs, sddm polkit polkit-kde-agent, blueman..."
 
+sudo pacman -S fastfetch
 yay -S ueberzug nemo git python python-pip neovim waybar dunst htop kitty neofetch qt6ct rofi eza alacritty curl zip unzip grim slurp qt6-wayland mpv xdotool wf-recorder cliphist feh emacs sddm polkit polkit-kde-agent blueman
 
 # Install zellig
