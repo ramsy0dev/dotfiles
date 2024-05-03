@@ -19,12 +19,15 @@ yay -Syyu
 yay -S hyprland-git
 
 # Install deps
-echo " ${GREEN}[ + ]${NC} Installing the following deps: nemo, git, python, python-pip, neovim, dunst, htop, kitty, neofetch, qt6ct, rofi, eza, alacritty, curl, zip, unzip, grim, slurp, qt6-wayland, mpv, xdotool, wf-recorder, cliphist, feh, emacs, sddm polkit polkit-kde-agent, blueman..."
+echo " ${GREEN}[ + ]${NC} Installing the following deps: ueberzug, nemo, git, python, python-pip, neovim, dunst, htop, kitty, neofetch, qt6ct, rofi, eza, alacritty, curl, zip, unzip, grim, slurp, qt6-wayland, mpv, xdotool, wf-recorder, cliphist, feh, emacs, sddm polkit polkit-kde-agent, blueman..."
 
-yay -S nemo git python python-pip neovim waybar dunst htop kitty neofetch qt6ct rofi eza alacritty curl zip unzip grim slurp qt6-wayland mpv xdotool wf-recorder cliphist feh emacs sddm polkit polkit-kde-agent blueman
+yay -S ueberzug nemo git python python-pip neovim waybar dunst htop kitty neofetch qt6ct rofi eza alacritty curl zip unzip grim slurp qt6-wayland mpv xdotool wf-recorder cliphist feh emacs sddm polkit polkit-kde-agent blueman
 
 # Install zellig
 cargo install --locked zellij
+
+# Install termusic
+cargo install termusic termusic-server --locked
 
 # Installing the Hack nerd font
 echo " ${GREEN}[ + ]${NC} Installing the Hack Nerd font..."
